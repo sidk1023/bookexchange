@@ -48,7 +48,7 @@
     <h1 class="py-5" style="text-align:center; color: #703f37;">Users Details</h1>
     <div class="container">
         <div class="row row-cols-3">
-            <c:forEach items="${userList}" var="user">
+            
                 <div class="card d-inline-flex mt-4 ms-4" >
                     <div class="card-body">
                       <h5 class="card-title">${user.name}</h5>
@@ -63,7 +63,7 @@
                
                 </div>
                 </div>
-            </c:forEach>
+           
         </div>
     </div>
 </section>

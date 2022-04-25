@@ -509,7 +509,7 @@ public class Router{
 	        	Long userId = Long.parseLong(userIdText);
 	        	
 	          model.addAttribute("admin",userService.getUserById(id));
-	          model.addAttribute("userList",List.of(userService.getUserById(userId)));
+	          model.addAttribute("user",userService.getUserById(userId));
 	          model.addAttribute("bookList",bookService.getBookByLenderId(userId));
 	          model.addAttribute("requests",bookRequestService.getBookRequestByBorrowerId(userId));
 	          model.addAttribute("requestLent",bookRequestService.getBookRequestByLenderId(userId));
