@@ -123,7 +123,7 @@
                     <div class="card-body">
                       <h5 class="card-title">${request.book.title}</h5>
                       <p class="card-text">
-                        <div>Author: ${request.book.status}</div>
+                        <div>Author: ${request.book.author}</div>
                         <div>Lender: ${request.lender.email}</div>
                         <div>Borrower: ${request.borrower.name}</div>
                         <div>Status: ${request.status}</div>
