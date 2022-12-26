@@ -1,4 +1,5 @@
 Mutual Book Exchange portal built on Spring Boot.
+Deployed at: https://bookexchangeportal.fly.dev/web/home
 Features:
 1. Create book listing
 <img width="235" alt="image" src="https://user-images.githubusercontent.com/26787783/209562159-6408a141-01e2-447f-9f7e-b6d18b29988e.png">
