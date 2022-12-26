@@ -1,10 +1,9 @@
 #
 # Build stage
 #
-FROM maven:3.8.2-jdk-11 AS build
+FROM openjdk:17-alpine AS build
 COPY . .
 RUN mvn clean package -Pprod -DskipTests
-WORKDIR /app
 #
 # Package stage
 #
